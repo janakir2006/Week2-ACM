@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA APOD</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: white;
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    img {
+      width: 80%;
+      max-width: 600px;
+      border: 4px solid whitesmoke;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      font-size: 18px;
+      color: white;
+      max-width: 800px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>HOW BEAUTIFUL IS OUR EARTH</h1>
+  <img src="<%= data.url %>" alt="NASA APOD">
+  <p>
+    NASA's Astronomy Picture of the Day (APOD) is a daily feature that showcases stunning images of space and celestial events, often accompanied by a short explanation written by a professional astronomer. From distant galaxies and nebulae to planets and satellites, APOD helps us appreciate the wonders of the universe through breathtaking visuals and scientific insights.
+  </p>
+</body>
+</html>
