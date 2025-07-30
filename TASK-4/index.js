@@ -1,12 +1,10 @@
 import express from "express";
-import bodyParser from "body-parser";
 import axios from "axios";
 
 const app = express();
 const port = 3000;
 
-app.use(express.static("public"));
-app.use(bodyParser.urlencoded({extended:true}));
+
 
 const today = new Date();
 const year = today.getFullYear();
@@ -17,7 +15,6 @@ const formattedDate = `${year}-${month}-${day}`;
 
 app.get("/", async(req,res)=>{
     try{
-        console.log(req.body);
         const response = await axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${formattedDate}`);
         const result = response.data;
         res.render("index.ejs",{data:result});
