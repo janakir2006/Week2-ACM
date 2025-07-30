@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AR Solar System</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/2.2.1/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 20000">
+
+          <!-- Sun -->
+          <a-sphere position="0 0.5 0" radius="0.3" color="yellow"></a-sphere>
+
+          <!-- Mercury -->
+          <a-sphere position="0.5 0.3 0" radius="0.05" color="gray"></a-sphere>
+
+          <!-- Venus -->
+          <a-sphere position="0.8 0.3 0" radius="0.07" color="orange"></a-sphere>
+
+          <!-- Earth -->
+          <a-sphere position="1.1 0.3 0" radius="0.08" color="blue"></a-sphere>
+
+          <!-- Mars -->
+          <a-sphere position="1.4 0.3 0" radius="0.06" color="red"></a-sphere>
+
+          <!-- Jupiter -->
+          <a-sphere position="1.8 0.3 0" radius="0.15" color="#d2b48c"></a-sphere>
+
+          <!-- Saturn -->
+          <a-sphere position="2.3 0.3 0" radius="0.12" color="#f4a460"></a-sphere>
+
+          <!-- Uranus -->
+          <a-sphere position="2.7 0.3 0" radius="0.1" color="#00ffff"></a-sphere>
+
+          <!-- Neptune -->
+          <a-sphere position="3.1 0.3 0" radius="0.09" color="#0000ff"></a-sphere>
+        </a-entity>
+      </a-marker>
+
+      <!-- Camera -->
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
