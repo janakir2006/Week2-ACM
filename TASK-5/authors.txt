@@ -1,0 +1,84 @@
+{
+  "authors": {
+    "jk_rowling": {
+      "full_name": "J.K. Rowling",
+      "books": [
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Chamber of Secrets",
+        "Harry Potter and the Prisoner of Azkaban"
+      ]
+    },
+    "george_orwell": {
+      "full_name": "George Orwell",
+      "books": [
+        "1984",
+        "Animal Farm",
+        "Homage to Catalonia"
+      ]
+    },
+    "agatha_christie": {
+      "full_name": "Agatha Christie",
+      "books": [
+        "Murder on the Orient Express",
+        "Death on the Nile",
+        "The Murder of Roger Ackroyd"
+      ]
+    },
+    "jane_austen": {
+      "full_name": "Jane Austen",
+      "books": [
+        "Pride and Prejudice",
+        "Emma",
+        "Sense and Sensibility"
+      ]
+    },
+    "mark_twain": {
+      "full_name": "Mark Twain",
+      "books": [
+        "The Adventures of Tom Sawyer",
+        "Adventures of Huckleberry Finn",
+        "A Connecticut Yankee in King Arthur's Court"
+      ]
+    },
+    "charles_dickens": {
+      "full_name": "Charles Dickens",
+      "books": [
+        "A Tale of Two Cities",
+        "Oliver Twist",
+        "Great Expectations"
+      ]
+    },
+    "dan_brown": {
+      "full_name": "Dan Brown",
+      "books": [
+        "The Da Vinci Code",
+        "Angels & Demons",
+        "Inferno"
+      ]
+    },
+    "cs_lewis": {
+      "full_name": "C.S. Lewis",
+      "books": [
+        "The Lion, the Witch and the Wardrobe",
+        "Prince Caspian",
+        "The Voyage of the Dawn Treader"
+      ]
+    },
+    "jrr_tolkien": {
+      "full_name": "J.R.R. Tolkien",
+      "books": [
+        "The Hobbit",
+        "The Fellowship of the Ring",
+        "The Two Towers"
+      ]
+    },
+    "leo_tolstoy": {
+      "full_name": "Leo Tolstoy",
+      "books": [
+        "War and Peace",
+        "Anna Karenina",
+        "The Death of Ivan Ilyich"
+      ]
+    }
+  }
+}
